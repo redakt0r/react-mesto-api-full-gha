@@ -1,0 +1,11 @@
+.login__submit-button {
+  margin-top: 183px;
+  color: #000;
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  min-height: 50px;
+  border: none;
+  border-radius: 2px;
+}

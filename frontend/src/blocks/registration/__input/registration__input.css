@@ -1,0 +1,12 @@
+.registration__input {
+  color: #fff;
+  padding-bottom: 8px;
+  margin-bottom: 3px;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+  background-color: black;
+  border-bottom: 2px #ccc solid;
+}
