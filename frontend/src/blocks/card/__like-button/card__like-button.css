@@ -1,8 +1,0 @@
-.card__like-button {
-  min-width: 22px;
-  height: 22px;
-  margin-left: auto;
-  background-image: url(../../../images/heart.svg);
-  background-color: #fff;
-  border-style: none;
-}
