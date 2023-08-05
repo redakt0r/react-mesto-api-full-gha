@@ -1,6 +1,6 @@
 //настройки для api
 const apiConfig = {
-  baseUrl: "http://localhost:3001",
+  baseUrl: "https://vmesto.otpuska.nomoreparties.co",
   headers: {
     "Content-Type": "application/json",
   },
@@ -8,7 +8,7 @@ const apiConfig = {
 
 //настройки для авторизации
 const authApiConfig = {
-  baseUrl: "http://localhost:3001",
+  baseUrl: "https://vmesto.otpuska.nomoreparties.co/",
   headers: {
     "Content-Type": "application/json",
   },
