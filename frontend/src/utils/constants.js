@@ -1,6 +1,6 @@
 //настройки для api
 const apiConfig = {
-  baseUrl: "https://vmesto.otpuska.nomoreparties.co",
+  baseUrl: "https://api.vmesto.otpuska.nomoreparties.co",
   headers: {
     "Content-Type": "application/json",
   },
@@ -8,7 +8,7 @@ const apiConfig = {
 
 //настройки для авторизации
 const authApiConfig = {
-  baseUrl: "https://vmesto.otpuska.nomoreparties.co/",
+  baseUrl: "https://api.vmesto.otpuska.nomoreparties.co/",
   headers: {
     "Content-Type": "application/json",
   },
