@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 
 const mongoose = require('mongoose');
@@ -16,7 +17,7 @@ const { auth } = require('./middlewares/auth');
 const { errorHandler } = require('./middlewares/error-handler');
 const { signInRequestValidation } = require('./middlewares/request-validation');
 const { login, createUser, signOut } = require('./controllers/users');
-const { PORT, DB_URL } = require('./utils/constants');
+const { PORT, DB_URL, allowedCors } = require('./utils/constants');
 const NotFoundError = require('./errors/NotFoundError');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
@@ -31,7 +32,7 @@ const limiter = rateLimit({
 
 mongoose.connect(DB_URL, {});
 
-app.use(cors({ origin: [ 'http://localhost:3000', 'https://vmesto.otpuska.nomoreparties.co/' ], credentials: true }));
+app.use(cors({ origin: allowedCors, credentials: true }));
 
 app.use(limiter);
 
