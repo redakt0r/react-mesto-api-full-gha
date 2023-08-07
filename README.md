@@ -8,7 +8,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.7.148
+IP-адрес 84.252.143.118
 
 Frontend https://vmesto.otpuska.nomoreparties.co
 
