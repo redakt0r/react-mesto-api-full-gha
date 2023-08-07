@@ -40,7 +40,7 @@ function Login({ onLogin }) {
         <button
           className="button login__submit-button"
           type="submit"
-          aria-label="Зарегестрироваться"
+          aria-label="Войти"
         >
           Войти
         </button>
